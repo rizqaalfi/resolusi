@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Multiple file</title>
+</head>
+
+<body>
+
+  <h1>Upload Multiple Gambar</h1>
+  <form action="proses.php" method="POST" enctype="multipart/form-data">
+    <div>
+      <label>pilih Gambar</label><br>
+      <input type="file" name="listGambar[]" accept="image/*" multiple>
+    </div>
+
+    <button style="margin-top: 2rem;">UP</button>
+  </form>
+
+</body>
+
+</html>
