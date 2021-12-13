@@ -3,7 +3,7 @@
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">
-      <h2>Intansi Gawat Darurat</h2>
+      <h2>Intansi Rawat Inap</h2>
     </div>
 
     <?php foreach ($rawatinap as $x) {

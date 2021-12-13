@@ -1,0 +1,1 @@
+<textarea name="content" placeholder="Content Karir" class="form-control" id="isi"><?php echo set_value('content') ?></textarea>

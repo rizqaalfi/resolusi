@@ -8,25 +8,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 class Informasi extends CI_Controller
 {
 	//rekanan
-	public function rekanan()
-	{
 
-		$site  		= $this->mConfig->list_config();
-		$rekanan = $this->mInformasi->listRekananAs();
-		$rekanan2 = $this->mInformasi->listRekananNon();
-		$rekanan3 = $this->mInformasi->listRekananRs();
-		$infoRs = $this->mInfoRs->index();
-
-		$data = array(
-			'title'		=> 'Kerjasama - ' . $site['nameweb'],
-			'rekanan'	=> $rekanan,
-			'rekanan2'	=> $rekanan2,
-			'rekanan3'	=> $rekanan3,
-			'infoRs'	=> $infoRs,
-			'isi'		=> 'front/informasi/rekanan'
-		);
-		$this->load->view('front/layout/wrapper', $data);
-	}
 
 	//Artikel
 	public function artikel()
@@ -35,6 +17,14 @@ class Informasi extends CI_Controller
 		$site  		= $this->mConfig->list_config();
 		$lastArtikels = $this->mInformasi->listLastArtikelsPub();
 		$infoRs = $this->mInfoRs->index();
+
+		$rekanan = $this->mInformasi->listRekananAs();
+		$rekanan2 = $this->mInformasi->listRekananNon();
+		$rekanan3 = $this->mInformasi->listRekananRs();
+
+		$kegiatans = $this->mInformasi->listLastKegiatansPub();
+		$fasilitas = $this->mInformasi->listFasilitas();
+
 
 		// Pagination
 		$this->load->library('pagination');
@@ -56,6 +46,11 @@ class Informasi extends CI_Controller
 			'artikels'	=> $artikels,
 			'lastArtikels' => $lastArtikels,
 			'infoRs'    => $infoRs,
+			'rekanan'	=> $rekanan,
+			'rekanan2'	=> $rekanan2,
+			'rekanan3'	=> $rekanan3,
+			'kegiatans' => $kegiatans,
+			'fasilitas' => $fasilitas,
 			'pagin' 	=> $this->pagination->create_links(),
 			'isi'		=> 'front/informasi/info'
 		);

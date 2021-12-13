@@ -1642,20 +1642,203 @@ section {
 	}
 }
 
-/* tble psikologi */
-.psikologi table {
-	border-collapse: collapse;
+/* rekanan */
+
+.rekanan .nav {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+.rekanan .nav-link {
+	display: block;
+	padding: 0.5rem 1rem;
+	color: #0d6efd;
+	text-decoration: none;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+		border-color 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+	.rekanan .nav-link {
+		transition: none;
+	}
+}
+.rekanan .nav-link:hover,
+.rekanan .nav-link:focus {
+	color: #0a58ca;
+}
+.rekanan .nav-link.disabled {
+	color: #6c757d;
+	pointer-events: none;
+	cursor: default;
+}
+.rekanan .nav-tabs {
+	border-bottom: 1px solid #dee2e6;
+}
+
+.rekanan .nav-tabs .nav-link {
+	margin-bottom: -1px;
+	background: none;
+	border: 1px solid transparent;
+	border-top-left-radius: 0.25rem;
+	border-top-right-radius: 0.25rem;
+}
+.rekanan .nav-tabs .nav-link:hover,
+.rekanan .nav-tabs .nav-link:focus {
+	border-color: #e9ecef #e9ecef #dee2e6;
+	isolation: isolate;
+}
+.rekanan .nav-tabs .nav-link.disabled {
+	color: #6c757d;
+	background-color: transparent;
+	border-color: transparent;
+}
+.rekanan .nav-tabs .nav-link.active,
+.rekanan .nav-tabs .nav-item.show .nav-link {
+	color: #495057;
+	background-color: #fff;
+	border-color: #dee2e6 #dee2e6 #fff;
+}
+.rekanan .nav-tabs .dropdown-menu {
+	margin-top: -1px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.rekanan .nav-pills .nav-link {
+	background: none;
+	border: 0;
+	border-radius: 0.25rem;
+}
+.rekanan .nav-pills .nav-link.active,
+.rekanan .nav-pills .show > .nav-link {
+	color: #fff;
+	background-color: #0d6efd;
+}
+
+.rekanan .nav-fill > .nav-link,
+.rekanan .nav-fill .nav-item {
+	flex: 1 1 auto;
+	text-align: center;
+}
+
+.rekanan .nav-justified > .nav-link,
+.rekanan .nav-justified .nav-item {
+	flex-basis: 0;
+	flex-grow: 1;
+	text-align: center;
+}
+
+.rekanan .nav-fill .nav-item .nav-link,
+.rekanan .nav-justified .nav-item .nav-link {
 	width: 100%;
 }
 
-.psikologi table,
-.psikologi th,
-.psikoligi td {
-	border: 1px solid rgb(138, 132, 132);
-	text-align: left;
+/* Rekanan  foto*/
+.rekanan-pic {
+	margin-bottom: 5px;
+	height: 200px;
 }
 
-.psikologi th,
-.psikologi td {
-	padding: 15px;
+@media (min-width: 600px) {
+	.rekanan-pic {
+		margin-bottom: 5px;
+		height: 80px;
+	}
+}
+@media (max-width: 600px) {
+	.rekanan-pic {
+		margin-bottom: 5px;
+		height: 80px;
+	}
+}
+
+@media (min-width: 768px) {
+	.rekanan-pic {
+		margin-bottom: 5px;
+		height: 100px;
+	}
+}
+
+@media (min-width: 992px) {
+	.ruang {
+		height: 200px;
+	}
+}
+
+/* Ruangan Rawat Inap */
+.karir {
+	height: 600px;
+}
+
+@media (min-width: 600px) {
+	.karir {
+		height: 200px;
+	}
+}
+@media (max-width: 600px) {
+	.karir {
+		height: 200px;
+	}
+}
+
+@media (min-width: 768px) {
+	.karir {
+		height: 500px;
+	}
+}
+
+@media (min-width: 992px) {
+	.karir {
+		height: 600px;
+	}
+}
+
+/* Ruangan Rawat Inap */
+.maps {
+	width: 1000px;
+	height: 800px;
+}
+
+@media (min-width: 600px) {
+	.maps {
+		width: 375px;
+		height: 300px;
+	}
+}
+@media (max-width: 600px) {
+	.maps {
+		width: 375px;
+		height: 300px;
+	}
+}
+
+@media (min-width: 768px) {
+	.maps {
+		width: 500px;
+		height: 800px;
+	}
+}
+
+@media (min-width: 992px) {
+	.maps {
+		width: 800px;
+		height: 600px;
+	}
+}
+
+.mr-3,
+.mx-3 {
+	margin-right: 1rem !important;
+}
+
+.mt-3,
+.my-3 {
+	margin-top: 1rem !important;
+}
+
+.mt-0,
+.my-0 {
+	margin-top: 0 !important;
 }

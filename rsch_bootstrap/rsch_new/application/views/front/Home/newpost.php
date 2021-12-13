@@ -15,7 +15,7 @@
                  <img src="<?php echo base_url('assets/upload/image/' . $x['image']); ?>" style="height:90px" />
                  <br>
                  <h2 class="title"><a href=""><?php echo  $x['title'] ?></a></h2>
-                 <p class="description"><?php echo  substr($x['content'], 0, 100) ?><a href="">..detail selengkapnya</a></p>
+                 <p class="description"><?php echo  substr($x['content'], 0, 100) ?><a href="<?php echo base_url('informasi/artikel/') ?>">..detail selengkapnya</a></p>
 
              <?php $c++;
                 }

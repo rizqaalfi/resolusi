@@ -1,24 +1,17 @@
-    <div id="k-body">
-        <!-- content wrapper -->
+<section id="about" class="about">
+    <div class="container" data-aos="fade-up">
 
-        <div class="jumbotron" style="background-color:#003399">
-            <center>
-                <font color="white" size="8">Mutu & Kinerja</font>
-            </center>
+        <div class="section-title">
+            <h2>Mutu & Kinerja</h2>
+
         </div>
+        <?php foreach ($mutu as $v) {
+            if ($v['position'] == 'mutu') {
+        ?>
+                <td><?php echo $v['information']; ?></td>
 
-        <div class="container">
-            <!-- container -->
-            <tbody>
-                <?php foreach ($mutu as $v) {
-                    if ($v['position'] == 'mutu') {
-                ?>
-                        <td><?php echo $v['information']; ?></td>
+        <?php }
+        } ?>
 
-                <?php }
-                } ?>
-            </tbody>
-
-        </div><!-- container end -->
-
-    </div><!-- content wrapper end -->
+    </div>
+</section><!-- End About Us Section -->

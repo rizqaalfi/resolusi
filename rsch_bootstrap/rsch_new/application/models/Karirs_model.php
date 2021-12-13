@@ -31,7 +31,7 @@ class Karirs_model extends CI_Model
         $this->db->from('karirs');
         $this->db->where(array('status' => 'publish'));
         $this->db->join('admins', 'admins.admin_id = karirs.user_id', 'LEFT');
-        $this->db->order_by('karir_id', 'ASC');
+        $this->db->order_by('karir_id', 'DESC');
         $query = $this->db->get();
         return $query->result_array();
     }

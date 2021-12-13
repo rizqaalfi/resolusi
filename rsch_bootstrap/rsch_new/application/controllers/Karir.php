@@ -60,15 +60,13 @@ class Karir extends CI_Controller
 	public function index()
 	{
 
-		$content  	= $this->mKarirs->listContent();
 		$site  		= $this->mConfig->list_config();
 		$karir 		= $this->mKarirs->listLastKarirsPub();
 		$infoRs     = $this->mInfoRs->index();
 
 		$data = array(
-			'title'		=> 'Rawat Inap - ' . $site['nameweb'],
+			'title'		=> 'Karir - ' . $site['nameweb'],
 			'site'		=> $site,
-			'content' 	=> $content,
 			'karir' 	=> $karir,
 			'infoRs'	=> $infoRs,
 			'isi'		=> 'front/karir/news'

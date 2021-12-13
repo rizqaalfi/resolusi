@@ -54,8 +54,16 @@
 
 
            <li><a class="nav-link scrollto" href="<?php echo base_url('karir'); ?>">Karir</a></li>
-           <li><a class="nav-link scrollto" href="<?php echo base_url('hubungi'); ?>">Hubungi Kami</a></li>
-           <li><a class="nav-link scrollto" href="<?php echo base_url('keluhan'); ?>">Keluhan</a></li>
+           <li><a class="nav-link scrollto" href="<?php echo base_url('hubungi'); ?>" title="">Hubungi Kami</a></li>
+           <li class="dropdown"><a href="#"><span>Saran & Aduan</span> <i class="bi bi-chevron-down"></i></a>
+             <ul>
+               <li><a href="<?php echo base_url('keluhan/alur'); ?>">Alur Pengaduan</a></li>
+               <li><a href="<?php echo base_url('keluhan'); ?>">Survey Kepuasan Pasien Rawat Jalan</a></li>
+               <li><a href="<?php echo base_url('keluhan'); ?>">Survey Kepuasan Pasien Rawat Inap</a></li>
+               <li><a href="<?php echo base_url('keluhan/index'); ?>">Tulis Saran dan Aduan</a></li>
+               <li><a href="<?php echo base_url('keluhan/hasil'); ?>">Hasil Penanganan Pengaduan</a></li>
+             </ul>
+           </li>
            <li><a class="nav-link scrollto" href="<?php echo base_url('promosi'); ?>">Promosi</a></li>
 
          </ul>

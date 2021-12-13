@@ -28,7 +28,7 @@ class Informasi_model extends CI_Model
     $this->db->from('artikels');
     $this->db->where(array('status' => 'publish'));
     $this->db->join('admins', 'admins.admin_id = artikels.user_id', 'LEFT');
-    $this->db->order_by('artikel_id', 'ASC');
+    $this->db->order_by('artikel_id', 'DESC');
     $query = $this->db->get();
     return $query->result_array();
   }
@@ -103,7 +103,7 @@ class Informasi_model extends CI_Model
     $this->db->select('*');
     $this->db->from('artikels');
     $this->db->where(array('status' => 'publish'));
-    $this->db->order_by('artikel_id','ASC');
+    $this->db->order_by('artikel_id', 'DESC');
     $this->db->limit($limit, $start);
     $query = $this->db->get();
     return $query->result_array();
@@ -172,7 +172,7 @@ class Informasi_model extends CI_Model
     $this->db->from('kegiatans');
     $this->db->where(array('status' => 'publish'));
     $this->db->join('admins', 'admins.admin_id = kegiatans.user_id', 'LEFT');
-    $this->db->order_by('kegiatan_id', 'ASC');
+    $this->db->order_by('kegiatan_id', 'DESC');
     $query = $this->db->get();
     return $query->result_array();
   }

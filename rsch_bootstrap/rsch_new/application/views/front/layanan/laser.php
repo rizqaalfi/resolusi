@@ -1,31 +1,17 @@
-<div id="k-body">
-  <!-- content wrapper -->
-  <div class="jumbotron" style="background-color:#003399">
-    <center>
-      <font color="white" size="8">Laser dan Estetika</font>
-    </center>
-  </div>
+<section id="about" class="about">
+  <div class="container" data-aos="fade-up">
 
-  <div class="container">
-    <!-- container -->
-    <div class="col-padded" align="justify">
-      <!-- inner custom column -->
-      <font size="4">
-        <div class="wpb_text_column wpb_content_element ">
-          <div class="wpb_wrapper">
+    <div class="section-title">
+      <h2>Laser dan Estetika</h2>
 
-            <tbody>
-              <?php foreach ($laser as $v) {
-                if ($v['position'] == 'laser') {
-              ?>
-                  <td><?php echo $v['information']; ?></td>
-
-              <?php }
-              } ?>
-            </tbody>
-          </div>
-        </div>
-      </font>
     </div>
+    <?php foreach ($laser as $v) {
+      if ($v['position'] == 'laser') {
+    ?>
+        <td><?php echo $v['information']; ?></td>
+
+    <?php }
+    } ?>
+
   </div>
-</div>
+</section><!-- End About Us Section -->
