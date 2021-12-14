@@ -14,7 +14,7 @@
    <header id="header" class="fixed-top">
      <div class="container d-flex align-items-center">
 
-       <a href="index.html" class="logo me-auto"><img src="<?php echo base_url('assets/upload/image/thumbs/' . $site['logo']); ?>" alt="Site Logo" class="img-responsive" /></a>
+       <a href="<?php echo base_url(); ?>" class="logo me-auto"><img src="<?php echo base_url('assets/upload/image/thumbs/' . $site['logo']); ?>" alt="Site Logo" class="img-responsive" /></a>
        <!-- Uncomment below if you prefer to use an image logo -->
        <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
 
@@ -58,8 +58,8 @@
            <li class="dropdown"><a href="#"><span>Saran & Aduan</span> <i class="bi bi-chevron-down"></i></a>
              <ul>
                <li><a href="<?php echo base_url('keluhan/alur'); ?>">Alur Pengaduan</a></li>
-               <li><a href="<?php echo base_url('keluhan'); ?>">Survey Kepuasan Pasien Rawat Jalan</a></li>
-               <li><a href="<?php echo base_url('keluhan'); ?>">Survey Kepuasan Pasien Rawat Inap</a></li>
+               <li><a href="<?php echo base_url('keluhan/surveyRj'); ?>">Survey Kepuasan Pasien Rawat Jalan</a></li>
+               <li><a href="<?php echo base_url('keluhan/surveyRi'); ?>">Survey Kepuasan Pasien Rawat Inap</a></li>
                <li><a href="<?php echo base_url('keluhan/index'); ?>">Tulis Saran dan Aduan</a></li>
                <li><a href="<?php echo base_url('keluhan/hasil'); ?>">Hasil Penanganan Pengaduan</a></li>
              </ul>

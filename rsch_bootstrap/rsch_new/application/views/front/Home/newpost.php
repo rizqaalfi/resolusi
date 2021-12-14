@@ -36,7 +36,7 @@
                  <img src="<?php echo base_url('assets/upload/image/' . $y['image']); ?>" style="height:90px" />
                  <br>
                  <h2 class="title"><a href=""><?php echo  $y['title'] ?></a></h2>
-                 <p class="description"><?php echo  substr($y['content'], 0, 100) ?><a href="">..detail selengkapnya</a></p>
+                 <p class="description"><?php echo  substr($y['content'], 0, 100) ?><a href="<?php echo base_url('karir') ?>">..detail selengkapnya</a></p>
 
              <?php $c1++;
                 }
@@ -55,7 +55,7 @@
                  <img src="<?php echo base_url('assets/upload/image/' . $z['image']); ?>" style="height:90px" />
                  <br>
                  <h2 class="title"><a href=""><?php echo  $z['title'] ?></a></h2>
-                 <p class="description"><?php echo  substr($z['content'], 0, 100) ?><a href="">..detail selengkapnya</a></p>
+                 <p class="description"><?php echo  substr($z['content'], 0, 100) ?><a href="<?php echo base_url('informasi/artikel') ?>">..detail selengkapnya</a></p>
 
              <?php $c2++;
                 }

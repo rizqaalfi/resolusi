@@ -50,24 +50,25 @@
              <div class="media">
 
                <div class="media-body">
-                 <h5 class="mt-0"><?php echo $v['name'] ?></h5>
+                 <h6 class="mt-0"><?php echo $v['name'] ?></h6>
                  <small><i><?php echo $v['date'] ?></i></small>
                  <p><?php echo $v['messages']
                     ?>
                  </p>
 
-                 <div class="media mt-3">
-                   <a class="mr-3" href="#">
+                 <div class="media mt-3 ml-4">
 
-                   </a>
-                   <div class="media-body border shadow-sm bg-light p-4 mb-4">
-                     <h5 class="mt-0">RSCH</h5>
+                   <div class="media-body border-start border-5 border-primary shadow-sm bg-light p-3 mb-2 ml-4">
+                     <i>
+                       <h6 class="mt-0 text-grey">Admin Reply</h6>
+                     </i>
 
                      <p><?php echo $v['reply'] ?></p>
                    </div>
                  </div>
                </div>
              </div>
+             <hr>
 
          <?php }
           } ?>

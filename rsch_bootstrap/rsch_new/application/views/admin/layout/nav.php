@@ -86,6 +86,18 @@
                 <ul class="nav nav-second-level">
                     <li><a href="<?php echo base_url('admin/keluhans/inbox') ?>">Inbox</a></li>
                     <li><a href="<?php echo base_url('admin/keluhans/hasil') ?>">Hasil Penanganan Pengaduan</a></li>
+                    <li><a href="#">Survey RJ<span class="fa arrow"></span></a>
+                        <ul class="nav nav-third-level">
+                            <li><a href="<?php echo base_url('admin/keluhans/surveyRj') ?>">Data Responden RJ</a></li>
+                            <li><a href="<?php echo base_url('admin/keluhans/chartSurveyRj') ?>">Data Persen RJ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Survey RI<span class="fa arrow"></a>
+                        <ul class="nav nav-third-level">
+                            <li><a href="<?php echo base_url('admin/keluhans/surveyRi') ?>">Data Responden RI</a></li>
+                            <li><a href="<?php echo base_url('admin/keluhans/chartSurveyRi') ?>">Data Persen RI</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
             <li><a href="#"><i class="fa fa-bullhorn"></i> Promotion<span class="fa arrow"></span></a>

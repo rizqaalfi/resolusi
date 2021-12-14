@@ -1828,6 +1828,7 @@ section {
 	}
 }
 
+/* posisi */
 .mr-3,
 .mx-3 {
 	margin-right: 1rem !important;
@@ -1841,4 +1842,31 @@ section {
 .mt-0,
 .my-0 {
 	margin-top: 0 !important;
+}
+
+.mr-5,
+.mx-5 {
+	margin-right: 3rem !important;
+}
+
+.ml-4,
+.mx-4 {
+	margin-left: 1.5rem !important;
+}
+
+.mb-2,
+.my-2 {
+	margin-bottom: 0.5rem !important;
+}
+
+.media {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+
+.media-body {
+	-ms-flex: 1;
+	flex: 1;
 }

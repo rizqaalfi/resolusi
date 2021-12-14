@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 12, 2021 at 04:00 PM
+-- Generation Time: Dec 14, 2021 at 04:36 AM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 5.6.40
 
@@ -450,8 +450,10 @@ INSERT INTO `keluhans` (`message_id`, `name`, `email`, `messages`, `reply`, `sta
 (5, 'Rizqa Alfiani', 'rizqaalfiani7@gmail.com', 'huhuuuu', '', '', '2021-12-12 21:34:33'),
 (6, 'Rizqa Alfiani', 'rizqaalfiani7@gmail.com', 'lallalalal', '', '', '2021-12-12 21:39:25'),
 (7, 'Rizqa Alfiani', 'rizqaalfiani7@gmail.com', ',amslkdnsdjbf', '', '', '2021-12-12 21:51:42'),
-(8, 'Rizqa Alfiani', 'rizqaalfiani7@gmail.com', 'huuuhunfgnkjfg', '', '', '2021-12-12 21:53:06'),
-(9, 'Rizqa Alfiani', 'rizqaalfiani7@gmail.com', 'yaya yaya yaya', 'iya bu.. maaf ya.. akan kami perbaiki', 'publish', '2021-12-12 21:56:16');
+(8, 'Rizqa Alfiani', 'rizqaalfiani7@gmail.com', 'huuuhunfgnkjfg', 'oooo begitu', 'publish', '2021-12-12 21:53:06'),
+(9, 'Rizqa Alfiani', 'rizqaalfiani7@gmail.com', 'yaya yaya yaya', 'iya bu.. maaf ya.. akan kami perbaiki', 'publish', '2021-12-12 21:56:16'),
+(10, 'Maya', 'maya@gmail.com', 'saya ini sakit punggung', 'iya iya.. sabar', 'publish', '2021-12-13 08:45:24'),
+(11, 'Rizqa Alfiani', 'rizqaalfiani7@gmail.com', 'hsbdjbsjdba', '', '', '2021-12-13 08:49:45');
 
 -- --------------------------------------------------------
 
@@ -773,7 +775,8 @@ CREATE TABLE `responden_ri` (
 --
 
 INSERT INTO `responden_ri` (`respon_id`, `email`, `responden_name`, `age`, `gender`, `relation`, `education`, `address`, `phone`, `date`, `patient_name`, `gender_px`, `age_px`, `treatment_room`, `doctor_name`, `question1`, `question2`, `question3`, `question4`, `question5`, `question6`, `question7`, `question8`, `question9`, `question10`, `question11`, `question12`, `question13`, `question14`, `question15`, `question16`, `question17`, `question18`, `question19`, `question20`, `question21`, `question22`, `question23`, `question24`, `question25`, `question26`, `question27`, `question28`, `question29`, `question30`, `question31`, `question32`, `question33`, `question34`, `question35`, `question36`, `question37`, `suggestion1`, `suggestion2`) VALUES
-(1, 'intankusumaningt@gmail.com', 'Intan', '20', 'Perempuan', 'Saudara', 'D3', 'cghggjgdg', '081245765876', '2021-12-10 05:13:53', 'Gea', 'Perempuan', '23', 'Alamanda', 'Poli Penyakit Dalam (dr.Ach Syaiful Ludfi, Sp.PD)', 'Sangat Sesuai', 'Mudah', 'Sangat Jelas', 'Sangat Sopan dan Sangat Ramah', 'Sangat Tepat', 'Sangat Sopan dan Sangat Ramah', 'Puas', 'Tepat', 'Sangat Sopan dan Sangat Ramah', 'Puas', 'Tepat', 'Puas', 'Sopan dan Ramah', 'Sangat Tepat', 'Sangat Puas', 'Sangat Sopan dan Sangat Ramah', 'Sangat Baik', 'Sangat Bersih', 'Sangat Mudah', 'Sangat Wajar', 'Sopan dan Ramah', 'Peduli', 'Sopan dan Ramah', 'Puas', 'Sangat Aman', 'Sangat Sopan dan Sangat Ramah', 'Sopan dan Ramah', 'Sangat Jelas', 'Sangat Puas', 'Sopan dan Ramah', 'Sangat Jelas', 'Sangat Puas', 'Sopan dan Ramah', 'Sangat Mudah', 'Sangat Jelas', 'Sangat Puas', 'Puas', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.');
+(1, 'intankusumaningt@gmail.com', 'Intan', '20', 'Perempuan', 'Saudara', 'D3', 'cghggjgdg', '081245765876', '2021-12-10 05:13:53', 'Gea', 'Perempuan', '23', 'Alamanda', 'Poli Penyakit Dalam (dr.Ach Syaiful Ludfi, Sp.PD)', 'Sangat Sesuai', 'Mudah', 'Sangat Jelas', 'Sangat Sopan dan Sangat Ramah', 'Sangat Tepat', 'Sangat Sopan dan Sangat Ramah', 'Puas', 'Tepat', 'Sangat Sopan dan Sangat Ramah', 'Puas', 'Tepat', 'Puas', 'Sopan dan Ramah', 'Sangat Tepat', 'Sangat Puas', 'Sangat Sopan dan Sangat Ramah', 'Sangat Baik', 'Sangat Bersih', 'Sangat Mudah', 'Sangat Wajar', 'Sopan dan Ramah', 'Peduli', 'Sopan dan Ramah', 'Puas', 'Sangat Aman', 'Sangat Sopan dan Sangat Ramah', 'Sopan dan Ramah', 'Sangat Jelas', 'Sangat Puas', 'Sopan dan Ramah', 'Sangat Jelas', 'Sangat Puas', 'Sopan dan Ramah', 'Sangat Mudah', 'Sangat Jelas', 'Sangat Puas', 'Puas', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'),
+(2, 'rizqaalfiani7@gmail.com', 'roni', '12', 'Perempuan', 'Orang Tua', 'sdf', 'Jl. Mastrip PO. BOX 164', '+6281249488710', '2021-12-14 03:32:39', 'rima', 'Perempuan', '11', 'xfer', 'Poli Penyakit Dalam (dr.Yuli Hermansyah, Sp.PD)', 'Tidak Sesuai', 'Sangat Mudah', 'Tidak Jelas', 'Tidak Sopan dan Tidak Ramah', 'Tidak Tepat', 'Sangat Sopan dan Sangat Ramah', 'Puas', 'Sangat Tepat', 'Sangat Sopan dan Sangat Ramah', 'Sangat Puas', 'Sangat Tepat', 'Sangat Puas', 'Sangat Sopan dan Sangat Ramah', 'Sangat Tepat', 'Sangat Puas', 'Sopan dan Ramah', 'Kurang Baik', 'Bersih', 'Kurang Mudah', 'Kurang Wajar', 'Kurang Sopan dan Kurang Ramah', 'Kurang Peduli', 'Sopan dan Ramah', 'Sangat Puas', 'Aman', 'Sopan dan Ramah', 'Sopan dan Ramah', 'Jelas', 'Tidak Puas', 'Sangat Sopan dan Sangat Ramah', 'Jelas', 'Kurang Puas', 'Kurang Sopan dan Kurang Ramah', 'Sangat Mudah', 'Kurang Jelas', 'Tidak Puas', 'Kurang Puas', 'dsf', 'dfvdfs');
 
 -- --------------------------------------------------------
 
@@ -824,7 +827,9 @@ INSERT INTO `responden_rj` (`respon_id`, `responden_name`, `age`, `phone`, `gend
 (9, 'Nura', '23', '081245765876', 'Laki-laki', 'Anak', 'S3', 'wsdsfdf', '2021-12-10 02:46:34', 'Zaki', 'Laki-laki', '40', 'Poli Jantung dan Pembuluh Darah (dr.Abdul Gofur, Sp.JP)', '2021-12-06', 'Sangat Sesuai', 'Sangat Sesuai', 'Sesuai', 'Sesuai', 'Sangat Sesuai', 'Sangat Sesuai', 'Sangat Sesuai', 'Kurang Sesuai', 'Sangat Sesuai', '', '', ''),
 (10, 'Intan', '23', '081245765876', 'Perempuan', 'Anak', 'S3', 'hvhvcxg', '2021-12-10 02:49:11', 'Zaki', 'Laki-laki', '40', 'Poli Umum', '2021-11-29', 'Sangat Sesuai', 'Sangat Sesuai', 'Sangat Sesuai', 'Sangat Sesuai', 'Sangat Sesuai', 'Sesuai', 'Sangat Sesuai', 'Sangat Sesuai', 'Sangat Sesuai', 'Sangat Sesuai', 'Sangat Sesuai', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'),
 (11, 'Intan', '20', '081245765876', 'Perempuan', 'Saudara', 'D3', 'vhvjnkkm', '2021-12-10 06:29:49', 'Gea', 'Perempuan', '23', 'Poli Anak (dr.Natalia K, Sp.A)', '2021-12-01', 'Sesuai', 'Sangat Mudah', 'Sangat Tepat', 'Sangat Wajar', 'Sangat Puas', 'Sangat Mampu', 'Sangat Sopan dan Sangat Ramah', 'Sangat Tepat', 'Sangat Puas', 'Sangat Puas', 'Sangat Bersih', ''),
-(12, 'Nura', '20', '081245765876', 'Perempuan', 'Saudara', 'S3', 'hhghcgj', '2021-12-10 06:31:05', 'Yuri', 'Perempuan', '20', 'Poli Penyakit Dalam (dr.Yuli Hermansyah, Sp.PD)', '2021-11-30', 'Sangat Sesuai', 'Sangat Mudah', 'Sangat Tepat', 'Sangat Wajar', 'Sangat Puas', 'Sangat Mampu', 'Sangat Sopan dan Sangat Ramah', 'Sangat Tepat', 'Sangat Puas', 'Sangat Puas', 'Sangat Bersih', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.');
+(12, 'Nura', '20', '081245765876', 'Perempuan', 'Saudara', 'S3', 'hhghcgj', '2021-12-10 06:31:05', 'Yuri', 'Perempuan', '20', 'Poli Penyakit Dalam (dr.Yuli Hermansyah, Sp.PD)', '2021-11-30', 'Sangat Sesuai', 'Sangat Mudah', 'Sangat Tepat', 'Sangat Wajar', 'Sangat Puas', 'Sangat Mampu', 'Sangat Sopan dan Sangat Ramah', 'Sangat Tepat', 'Sangat Puas', 'Sangat Puas', 'Sangat Bersih', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'),
+(13, 'riza', '19', '(+62) 857112239', 'Perempuan', 'Anak', 'jhdbf', 'dsfsffd', '2021-12-13 06:55:13', 'rima', 'Perempuan', '11', 'Poli Umum', '2021-12-28', 'Sangat Sesuai', 'Kurang Mudah', 'Tepat', 'Wajar', 'Kurang Puas', 'Mampu', 'Kurang Sopan dan Kurang Ramah', 'Tepat', 'Kurang Puas', 'Puas', 'Kurang Bersih', 'waede'),
+(14, 'riza', '19', '(+62) 857112239', 'Laki-laki', 'Saya Sebagai Pasien', 'sdsd', 'dfsdv', '2021-12-14 03:14:50', 'rima', 'Perempuan', '11', 'Poli Penyakit Dalam (dr.Ach Syaiful Ludfi, Sp.PD)', '2021-12-22', 'Kurang Sesuai', 'Kurang Mudah', 'Tidak Tepat', 'Tidak Wajar', 'Kurang Puas', 'Kurang Mampu', 'Tidak Sopan dan Tidak Ramah', 'Kurang Tepat', 'Sangat Puas', 'Kurang Puas', 'Tidak Bersih', 'sdfaef');
 
 -- --------------------------------------------------------
 
@@ -1172,7 +1177,7 @@ ALTER TABLE `kegiatans`
 -- AUTO_INCREMENT for table `keluhans`
 --
 ALTER TABLE `keluhans`
-  MODIFY `message_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `message_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `layanan`
@@ -1226,13 +1231,13 @@ ALTER TABLE `rekanan`
 -- AUTO_INCREMENT for table `responden_ri`
 --
 ALTER TABLE `responden_ri`
-  MODIFY `respon_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `respon_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `responden_rj`
 --
 ALTER TABLE `responden_rj`
-  MODIFY `respon_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `respon_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `sambutan`
